@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Semantic Tables and Media</title>
 </head>
 <body>
@@ -35,19 +35,29 @@
 
   <!-- Ordered List with Media -->
   <ol>
+    <!-- First Item: Image -->
     <li>
-      <img src="https://picsum.photos/id/123/200/300" alt="Sample image from Picsum" />
+      <img 
+        src="https://picsum.photos/id/123/200/300" 
+        alt="Sample image"
+      >
     </li>
+
+    <!-- Second Item: Video -->
     <li>
       <video controls width="300">
-        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
+        <source 
+          src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" 
+          type="video/mp4"
+        >
       </video>
     </li>
+
+    <!-- Third Item: Audio (IMPORTANT: src on audio tag) -->
     <li>
-      <audio controls>
-        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg" />
-        Your browser does not support the audio element.
+      <audio 
+        controls 
+        src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">
       </audio>
     </li>
   </ol>
